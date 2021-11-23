@@ -11,7 +11,7 @@ pipeline {
                 branch: 'develop'
             }
         }
-        stage('bUild') {
+        stage('build') {
             steps {
                 sh "mvn clean test"
             }
