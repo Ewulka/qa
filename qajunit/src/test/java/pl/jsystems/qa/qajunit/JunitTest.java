@@ -51,7 +51,7 @@ public class JunitTest {
         assertEquals(STRING_TESTOWY,  "stringTestowy");
 
     }
-
+//drugi komentarz
     @Order(3)
     @Disabled("Jira task: 15684")
     @Tag("junit")
