@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Junit tests")
 public class JunitTest {
 
+
     @BeforeAll
     public static void beforeAll() {
         System.out.println("=====beforeAll======");
