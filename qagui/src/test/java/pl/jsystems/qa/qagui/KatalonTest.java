@@ -3,7 +3,7 @@ package pl.jsystems.qa.qagui;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
-public class KatalonTest extends GuiConfig {
+public class KatalonTest extends GuiConfiguration {
 
     @Test
     public void testUntitledTestCase() throws Exception {
