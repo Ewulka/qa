@@ -67,7 +67,7 @@ public class AuthorService {
                 .getList("", Author.class);
     }
 
-    public Response getAuthorsResponse() {
+    public static Response getAuthorsResponse() {
         return RestAssured
                 .given()
                 .spec(AzureSpecification.azureSpec())
