@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Junit tests")
 public class JunitTest {
 
-
     @BeforeAll
     public static void beforeAll() {
         System.out.println("=====beforeAll======");
@@ -51,7 +50,8 @@ public class JunitTest {
         assertEquals(STRING_TESTOWY,  "stringTestowy");
 
     }
-//drugi komentarz
+
+
     @Order(3)
     @Disabled("Jira task: 15684")
     @Tag("junit")
