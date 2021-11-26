@@ -11,6 +11,7 @@
     <modules>
         <module>qajunit</module>
         <module>qagui</module>
+        <module>qaapi</module>
     </modules>
 
     <dependencyManagement>
@@ -114,6 +115,14 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.13.2</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>4.4.0</version>
                 <scope>test</scope>
             </dependency>
 
